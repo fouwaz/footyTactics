@@ -1,0 +1,89 @@
+#intro{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    background-color: aquamarine;
+    border-top:5px solid black;
+    border-bottom:5px solid black;
+}
+
+
+.body{
+    background-color: rgb(120,80,90);
+}
+
+.topnav{
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 1px;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: left;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+.topnav a:hover{
+    color: forestgreen;
+}
+
+.header1{
+    font-family: Brush Script MT, B rush Script Std, cursive;
+    font-size: 60px;
+    background-color: aquamarine;
+    text-align: center;
+
+}
+
+.header2{
+    font-size: 35px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.header3{
+    font-size: 30px;
+    
+}
+
+.Paragraph{
+    font-size:25px;
+    text-align: center;
+    
+    
+}
+
+.figures{
+    text-align: center;
+    border: 2px;
+    border-color: black;
+}
+
+.figCaption{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+
+}
+
+.hr{
+    border-radius: 1px;
+    border-color: black;
+}
+
+#main{
+    width: 1000px;
+    background-color: whitesmoke;
+    margin: auto;
+}
+
+.link :hover{
+    color: brown;
+    background-color: beige;
+}
+
+.listElem{
+    font-size:25px;
+}
